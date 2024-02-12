@@ -45,4 +45,113 @@ html{
     html{
         font-size: 10px;
     }
+
+    .header{
+        padding: 0 0 7.5rem;
+    }
+
+    .header-wrap__main__title{
+        margin-top: 4.125rem;
+    }
+
+    .header-wrap__main__desc{
+        margin-top: 1.1519rem;
+    }
+
+    .header-wrap__main__findOut{
+        margin: 2.9731rem auto 0;
+    }
+
+    .header-wrap__topbar__nav-burger{
+        z-index: 30;
+        cursor: pointer;
+        display: block;
+        position: relative;
+        border: none;
+        background: transparent;
+        width: 2.5rem;
+        height: 1.625rem;
+    }
+    
+    .header-wrap__topbar__nav-burger::before,
+    .header-wrap__topbar__nav-burger::after{
+        content: '';
+        left: 0;
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 0.25rem;
+        border-radius: 10px;
+        background-color: #fff;
+    }
+    
+    .header-wrap__topbar__nav-burger::before{
+        top: 0;
+        box-shadow: 0 0.6875rem 0 #fff;
+        transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+    }
+    .header-wrap__topbar__nav-burger::after{
+        bottom: 0;
+        transition: bottom .3s .15s, transform .3s;
+    }
+    
+    .header-wrap__topbar__nav-burger-checkbox:checked + .header-wrap__topbar__nav-burger::before{
+        top: 0.6875rem;
+        transform: rotate(45deg);
+        box-shadow: 0 0.375rem 0 rgba(0,0,0,0);
+        transition: box-shadow .15s, top .3s, transform .3s .15s;
+    }
+    .header-wrap__topbar__nav-burger-checkbox:checked + .header-wrap__topbar__nav-burger::after{
+        bottom: 0.6875rem;
+        transform: rotate(-45deg);
+        transition: bottom .3s, transform .3s .15s;
+    }
+
+    .header-wrap__topbar__nav-burger-checkbox:checked ~ .header-wrap__topbar__nav-list{
+        transform: translateX(0);
+    }
+
+    .header-wrap__topbar__nav{
+        position: relative;
+    }
+
+    .header-wrap__topbar__nav-list{
+        top: 100;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 0 30px;
+        position: fixed;
+        transform: translateX(-1000%);
+        transition: .3s;
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+
+        background-image: url("./../img/headerMain.jpg");
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        background-size: cover;
+
+        &::before{
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(37, 43, 73, 0.80);
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+
+    .header-wrap__topbar__nav-list__item{
+        display: flex;
+        height: 0;
+        padding: 15px 0;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 0 0 50px;
+        z-index: 25;
+    }
 }

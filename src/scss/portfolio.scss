@@ -1,0 +1,58 @@
+.portfolio{
+    
+}
+
+.portfolio-wrap{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(160px, 1fr));
+    grid-auto-rows: minmax(144px, width);
+    gap: 1px 1px; 
+}
+
+.portfolio-wrap__item{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.portfolio-wrap__item__page1{
+    background-image: url("./../img/page1.jpg");
+}
+
+.portfolio-wrap__item__page2{
+    background-image: url("./../img/page2.jpg");
+}
+
+.portfolio-wrap__item__page3{
+    background-image: url("./../img/page3.jpg");
+}
+
+.portfolio-wrap__item__page4{
+    background-image: url("./../img/page4.jpg");
+}
+
+.portfolio-wrap__item__page5{
+    background-image: url("./../img/page5.jpg");
+}
+
+.portfolio-wrap__item__page6{
+    background-image: url("./../img/page6.jpg");
+}
+
+.portfolio-wrap__item__page7{
+    background-image: url("./../img/page7.jpg");
+}
+
+.portfolio-wrap__item__page8{
+    background-image: url("./../img/page8.jpg");
+}
+
+.portfolio-wrap__item__title{
+    visibility: hidden;
+}
+
+.portfolio-wrap__item__desc{
+    visibility: hidden;
+}

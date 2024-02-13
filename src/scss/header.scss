@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    padding: 0 0 120px;
+    padding: 0 0 7.5rem;
 
     &::before{
         content: "";
@@ -27,12 +27,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 36px 0;
+    padding: 2.25rem 0;
     border-bottom: 1px solid rgb(186, 187, 197);
 }
 
 .header-wrap__topbar__logo{
-    margin-right: 15px;
+    margin-right: 0.9375rem;
     font-weight: 700;
     letter-spacing: 0%;
     text-transform: uppercase;
@@ -61,7 +61,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
     margin: -2.25rem -0.9375rem;
 }
 
@@ -84,19 +83,19 @@
         transition: 0.5s;
     }
     &:hover{
-        border-bottom: 3px solid rgb(186, 187, 197);
+        border-bottom: 0.1875rem solid rgb(186, 187, 197);
         cursor: pointer;
     }
     &:active{
         a{
             color: rgb(231, 20, 20);
         }
-        border-bottom: 3px solid rgb(231, 20, 20);
+        border-bottom: 0.1875rem solid rgb(231, 20, 20);
     }
 }
 
 .header-wrap__main__title{
-    margin-top: 130px;
+    margin-top: 8.125rem;
     color: rgb(255, 255, 255);
     font-family: Raleway;
     font-size: 4rem;
@@ -107,7 +106,7 @@
 }
 
 .header-wrap__main__desc{
-    margin-top: 34.43px;
+    margin-top: 2.1519rem;
     p{
         color: rgb(255, 255, 255);
         font-family: Raleway;
@@ -120,7 +119,7 @@
 }
 
 .header-wrap__main__findOut{
-    margin: 79.57px auto 0;
+    margin: 4.9731rem auto 0;
     width: 23.125rem;
     background-color: rgb(255, 67, 67);
     transition: 0.5s;
@@ -130,7 +129,7 @@
     animation-iteration-count: 5;
 
     a{
-        padding: 27px 0;
+        padding: 1.6875rem 0;
         display: block;
         color: rgb(255, 255, 255);
         font-family: Raleway;

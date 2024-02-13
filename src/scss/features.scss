@@ -1,25 +1,26 @@
 .features{
-    padding: 116px 0;
+    padding: 7.25rem 0 8.3481rem;
 }
 
 .features-wrap{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 0 -0.9375rem;
+    justify-content: space-around;
+    margin: 0 -0.3125rem -5.5356rem;
 }
 
 .features-wrap__item{
     display: flex;
     flex-direction: column;
-    width: 355px;
+    width: 23.125rem;
     align-items: center;
-    margin: 0 0.9375rem 0.9375rem;
+    margin: 0 0.3125rem 5.5356rem;
 }
 
 .features-wrap__item-logo{
-    width: 63px;
-    height: 63px;
+    width: 6.25rem;
+    height: 6.25rem;
 
     img{
         width: 100%;
@@ -36,11 +37,11 @@
     letter-spacing: 0%;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 40.87px;
+    margin-top: 3.125rem;
 }
 
 .features-wrap__item-desc{
-    margin-top: 30.43px;
+    margin-top: 2.5894rem;
     p{
         color: rgb(108, 114, 121);
         font-family: Raleway;

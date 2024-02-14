@@ -1,0 +1,90 @@
+.contacts{
+    padding: 4.375rem 0;
+    background-color: #353C65;
+}
+
+.contacts-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.contacts-title{
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contacts-desc{
+    margin-top: 1.8125rem;
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.contacts-wrap__location{
+    max-width: 23.125rem;
+}
+
+.contacts-wrap__share{
+    max-width: 23.125rem;
+}
+
+.contacts-wrap__share__nav{
+    margin-top: 3.0625rem;
+}
+
+.contacts-wrap__share__nav-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -0.5203rem;
+}
+
+.contacts-wrap__share__nav-list__item{
+    width: 2.4375rem;
+    height: 2.4375rem;
+    border: 0.0625rem solid #C6CBCD;
+    margin: 0 0.5203rem;
+    a{
+        padding: 50% 0;
+        display: block;
+        color: #C6CBCD;
+        transform: translate(0, -15%);
+
+        .fa-brands{
+            transition: 0.5s;
+        }
+        &:hover .fa-brands{
+            transform: scale(1.3);
+        }
+        &:hover .fa-facebook-f{
+            color: #1a2962;
+        }
+        &:hover .fa-twitter{
+            color: #798fe7;
+        }
+        &:hover .fa-linkedin{
+            color: #2db21b;
+        }
+    }
+}
+
+.fa-brands{
+    font-size: 1.125rem;
+}   
+
+.contacts-wrap__about{
+    max-width: 23.125rem;
+}

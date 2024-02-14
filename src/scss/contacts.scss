@@ -1,0 +1,58 @@
+.contacts{
+    padding: 4.375rem 0;
+    background-color: #353C65;
+}
+
+.contacts-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.contacts-title{
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.contacts-desc{
+    margin-top: 1.8125rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.contacts-wrap__location{
+    width: 23.125rem;
+}
+
+.contacts-wrap__share{
+    width: 23.125rem;
+}
+
+.contacts-wrap__share__nav{
+    margin-top: 3.0625rem;
+}
+
+.contacts-wrap__share__nav-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contacts-wrap__share__nav-list__item{
+
+    a{
+
+    }
+}
+
+.fa-brands{
+
+}
+
+.contacts-wrap__about{
+    width: 23.125rem;
+}

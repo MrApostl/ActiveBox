@@ -61,13 +61,6 @@
                 left: 0;
             }
         }
-        background-color: red;
-        height: 100%;
-        width: 100%;
-    }
-
-    &:hover{
-        cursor: pointer;
     }
 }
 
@@ -113,6 +106,7 @@
     letter-spacing: 0%;
     text-align: center;
     text-transform: uppercase;
+    transition: 0.3s;
 }
 
 .portfolio-wrap__item__desc{

@@ -1,0 +1,110 @@
+.our_team{
+    padding: 7.125rem 0;
+}
+
+.our_team-wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 -0.3125rem -3.0869rem;
+}
+
+.our_team-wrap__item{
+    max-width: 16.875rem;
+    margin: 0 0.3125rem 3.0869rem;
+}
+
+.our_team-wrap__item__img{
+    max-width: 16.875rem;
+    height: 16.875rem;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.our_team-wrap__item__title{
+    margin-top: 1.865rem;
+    color: rgb(45, 48, 51);
+    font-family: Raleway;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.our_team-wrap__item__contact{
+    margin-top: 0.3306rem;
+    a{
+        color: rgb(255, 67, 67);
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+    }
+}
+
+.our_team-wrap__item__desc{
+    margin-top: 1.1162rem;
+    p{
+        color: rgb(108, 114, 121);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+}
+
+.our_team-wrap__item__nav{
+    margin-top: 2.3663rem;
+    text-align: center;
+}
+
+.our_team-wrap__item__nav-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 -0.3125rem;
+}
+
+.our_team-wrap__item__nav-list__item{
+    width: 2.4375rem;
+    height: 2.4375rem;
+    border: 0.0625rem solid #C6CBCD;
+    margin: 0 0.3125rem;
+    a{
+        padding: 50% 0;
+        display: block;
+        color: #C6CBCD;
+        transform: translate(0, -15%);
+
+        .fa-brands{
+            transition: 0.5s;
+        }
+        &:hover .fa-brands{
+            transform: scale(1.3);
+        }
+        &:hover .fa-facebook-f{
+            color: #1a2962;
+        }
+        &:hover .fa-twitter{
+            color: #798fe7;
+        }
+        &:hover .fa-linkedin{
+            color: #2db21b;
+        }
+    }
+}
+
+.fa-brands{
+    font-size: 1.125rem;
+}   

@@ -1,0 +1,51 @@
+.ready_start{
+    padding: 7.125rem 0;
+}
+
+.ready_start-wrap__title{
+    color: rgb(0, 0, 0);
+    font-family: Raleway;
+    font-size: 1.875rem;
+    font-weight: 500;
+    letter-spacing: 0%;
+    line-height: 2.1875rem;
+    text-align: center;
+}
+
+.ready_start-wrap__desc{
+    margin-top: 1.3306rem;
+    color: rgb(0, 0, 0);
+    font-family: Raleway;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.3125rem;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.ready_start-wrap__download{
+    margin: 2.9819rem auto 0;
+    max-width: 23.125rem;
+    background-color: rgb(255, 67, 67);
+    transition: 0.5s;
+
+    a{
+        padding: 1.6875rem 0;
+        display: block;
+        color: rgb(255, 255, 255);
+        font-family: Raleway;
+        font-size: 1.5rem;
+        font-weight: 900;
+        line-height: 1.75rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    &:hover{
+        background-color: rgb(231, 20, 20);
+    }
+    &:active{
+        box-shadow: 0.25rem 0.25rem 1.875rem 0px rgb(255, 67, 67);
+    }
+}

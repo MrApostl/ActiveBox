@@ -25,11 +25,11 @@
 }
 
 .contacts-wrap__location{
-    width: 23.125rem;
+    max-width: 23.125rem;
 }
 
 .contacts-wrap__share{
-    width: 23.125rem;
+    max-width: 23.125rem;
 }
 
 .contacts-wrap__share__nav{
@@ -40,19 +40,27 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -0.5203rem;
 }
 
 .contacts-wrap__share__nav-list__item{
-
+    width: 2.4375rem;
+    height: 2.4375rem;
+    border: 0.0625rem solid #C6CBCD;
+    margin: 0 0.5203rem;
     a{
-
+        padding: 50% 0;
+        display: block;
+        color: #C6CBCD;
+        transform: translate(0, -15%);
     }
 }
 
 .fa-brands{
-
-}
+    font-size: 1.125rem;
+}   
 
 .contacts-wrap__about{
-    width: 23.125rem;
+    max-width: 23.125rem;
 }

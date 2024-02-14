@@ -45,11 +45,22 @@ html{
     }
 }
 
-@media (max-width: 545px) {
-    html{
-        font-size: 10px;
+@media (max-width: 585px) {
+    .contacts-wrap{
+        flex-direction: column;
+        align-content: center;
     }
 
+    .contacts-wrap__share{
+        margin-top: 6.9rem;
+    }
+
+    .contacts-wrap__about{
+        margin-top: 6.9rem;
+    }
+}
+
+@media (max-width: 545px) {
     .header{
         padding: 0 0 7.5rem;
     }

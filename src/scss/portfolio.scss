@@ -1,12 +1,12 @@
 .portfolio{
-    
+    max-width: 3000px;
+    margin: 0 auto;
 }
 
 .portfolio-wrap{
     display: grid;
-    grid-template-columns: repeat(4, minmax(160px, 1fr));
-    grid-auto-rows: minmax(144px, width);
-    gap: 1px 1px; 
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: repeat(2, 100%);
 }
 
 .portfolio-wrap__item{
@@ -15,6 +15,51 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    border: 1px solid #fff;
+
+    a{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+        width: 100%;
+        padding: 35% 0;
+        position: relative;
+
+        &:hover .portfolio-wrap__item__desc {
+            visibility: visible;
+            z-index: 20;
+        }
+        &:hover .portfolio-wrap__item__title {
+            visibility: visible;
+            z-index: 20;
+        }
+        &:hover {
+            &::before{
+                content: "";
+                display: block;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(255, 67, 67, 0.8);
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+        &:active {
+            &::before{
+                content: "";
+                display: block;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(185, 12, 12, 0.8);
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+    }
+    
 }
 
 .portfolio-wrap__item__page1{
@@ -51,8 +96,24 @@
 
 .portfolio-wrap__item__title{
     visibility: hidden;
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 1.75;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .portfolio-wrap__item__desc{
     visibility: hidden;
+    margin-top: 1.2856rem;
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.3125rem;
+    letter-spacing: 0%;
+    text-align: center;
 }

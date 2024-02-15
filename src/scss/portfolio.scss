@@ -26,6 +26,8 @@
         width: 100%;
         padding: 35% 0;
         position: relative;
+        transition: opacity 0.5s, visibility 0s linear 0.5s;
+        opacity: 0;
 
         &:hover .portfolio-wrap__item__desc {
             visibility: visible;
@@ -36,7 +38,8 @@
             z-index: 20;
         }
         &:hover {
-            //не отрабатывает transition
+            transition-delay: 0s;
+            opacity: 1;
             &::before{
                 content: "";
                 display: block;
@@ -49,6 +52,8 @@
             }
         }
         &:active {
+            transition-delay: 0s;
+            opacity: 1;
             &::before{
                 content: "";
                 display: block;

@@ -6,6 +6,7 @@
 @import url("./footer.scss");
 @import url("./ready_start.scss");
 @import url("./our_team.scss");
+@import url("./imonials.scss");
 
 *{
     margin: 0;
@@ -17,7 +18,7 @@
 }
 
 html{
-    font-family: "Raleway", "Open Sans", sans-serif;
+    font-family: "Raleway", "Cardo", sans-serif;
     font-size: 16px;
 }
 
@@ -188,6 +189,11 @@ html{
 
     .portfolio-wrap__item__desc{
         margin-top: 1.2856rem;
+    }
+
+    .imonials-wrap__slider__slides__item {
+        grid-template-columns: 1fr;
+        grid-auto-rows: repeat(2, 100%);
     }
 }
 

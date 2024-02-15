@@ -36,6 +36,7 @@
             z-index: 20;
         }
         &:hover {
+            //не отрабатывает transition
             &::before{
                 content: "";
                 display: block;

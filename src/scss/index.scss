@@ -203,6 +203,7 @@ html{
     .imonials-wrap__slider {
         min-height: 53.8rem;
     }
+    //слайдер не работал в 2 строчки, так что сделал из grida в flex
 
     .imonials-wrap__slider__slides__item {
         display: flex;

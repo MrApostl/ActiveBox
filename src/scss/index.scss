@@ -68,6 +68,12 @@ html{
         padding: 0 0 7.5rem;
     }
 
+    .header-wrap__topbar{
+        padding: 2.25rem 1.25rem;
+        margin: 0 -1.25rem;
+        border-bottom: 0.0625rem solid rgb(231, 20, 20);
+    }
+
     .header-wrap__main__title{
         margin-top: 4.125rem;
     }
@@ -134,10 +140,10 @@ html{
     }
 
     .header-wrap__topbar__nav-list{
-        top: 60;
+        top: 65;
         right: 0;
         width: 100vw;
-        height: 90vh;
+        height: 95vh;
         padding: 0 1.875rem;
         position: absolute;
         transform: translateY(-9999%);
@@ -217,12 +223,6 @@ html{
 }
 
 @media (max-width: 320px) {
-    .header-wrap__topbar{
-        padding: 2.25rem 1.25rem;
-        margin: 0 -1.25rem;
-        border-bottom: 0.0625rem solid rgb(231, 20, 20);
-    }
-    
     .header-wrap__main__findOut{
         width: 100%;
     }
